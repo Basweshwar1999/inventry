@@ -8,8 +8,8 @@ function Contact() {
     <div className="contact-container">
       <div className="contact-card">
         {/* Video Container */}
-        <div className="video-container">
-          <video ref={videoRef} src={logoImage} className="background-video" controls />
+        <div className="video-container" style={{borderRadius:10}}>
+          <video ref={videoRef} src={logoImage} className="background-video"  style={{borderRadius:10}} controls />
         </div>
 
         {/* Contact Details */}
@@ -18,7 +18,7 @@ function Contact() {
           <p>
             LinkedIn:
             <a
-              href="https://myvyay.com/"
+              href="https://www.linkedin.com/in/basweshwar-gubge-1340952b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
             >
